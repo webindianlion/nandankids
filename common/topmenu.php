@@ -5,11 +5,11 @@
         <li> <i class="fas fa-clock  me-2" aria-hidden="true"></i> Mon — Fri: 8.00 AM — 18.00 PM </li>
         
         <li class="nandan-socl-wrapr d-inline-flex flex-row ">
-            <a class="nandan-socl-fb" href="https://www.facebook.com/huntechengineers/" rel="nofollow" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="nandan-socl-fb" href="" rel="nofollow" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a class="nandan-socl-twit" href="" rel="nofollow" target="_blank"><i class="fab fa-twitter"></i></a>
             <a class="nandan-socl-lnkd" href="" rel="nofollow" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a class="nandan-socl-insta" href="" rel="nofollow" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a class="nandan-socl-utub" href="https://www.youtube.com/channel/UCmah5VbxjG0BxrWuHDeoTrg" rel="nofollow" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a class="nandan-socl-utub" href="" rel="nofollow" target="_blank"><i class="fab fa-youtube"></i></a>
         </li> 
         
     </ul>
