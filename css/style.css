@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+  word-break: break-all;
+}
+
+main {
+  z-index: 1;
+  position: relative;
+  background: #fff;
+  margin-bottom: 300px;
+}
+main section {
+  padding: 50px 0;
+  border-bottom: 1px solid #c6c6c6;
+}
+main section h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+main section article h6 {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+main section article p {
+  line-height: 2;
+}
+main .parallax {
+  background-image: url("../images/parallax.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  position: relative;
+}
+main .parallax:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #141526;
+  display: block;
+  opacity: 0.9;
+}
+main .parallax > div {
+  position: absolute;
+  color: #fff;
+  top: 50px;
+}
+main .parallax > div p {
+  text-align: justify;
+  color: #fff;
+}
+main .parallax > div h2, main .parallax > div h6 {
+  color: #fff;
+}
+
+.contactInfo {
+  color: #fff;
+  margin: 0;
+}
+.contactInfo i.fas {
+  margin-right: 5px;
+}
+.contactInfo .contactInfoMobile {
+  margin-left: 20px;
+}
+
+.mainHeader .slide1 {
+  background-image: url(../images/slides/slide1.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainHeader .slide2 {
+  background-image: url(../images/slides/slide2.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainHeader .slide3 {
+  background-image: url(../images/slides/slide3.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainHeader .slide4 {
+  background-image: url(../images/slides/slide4.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topSocial {
+  background: #ff6682;
+  width: 100%;
+  height: 50px;
+}
+.topSocial ul {
+  height: 50px;
+}
+.topSocial ul li {
+  display: inline-block;
+  color: #fff;
+}
+.topSocial ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.topSocial ul li:not(.nandan-socl-wrapr) i {
+  color: #fd0;
+}
+
+.topMenu {
+  width: 100%;
+  margin: 0;
+  padding: 20px 50px;
+  position: relative;
+  top: 0px;
+  padding-top: 20px;
+  background: #fff;
+  min-height: 100px;
+}
+.topMenu .logoText {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+.topMenu .logoText img {
+  width: 100%;
+  max-width: 100px;
+}
+.topMenu ul {
+  display: flex;
+  list-style-type: none;
+  color: #fff;
+  margin: 0;
+  justify-content: center;
+  width: 100%;
+  text-align: right;
+}
+.topMenu ul li a {
+  color: #56509f;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+header .row h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+header .row img {
+  height: 500px;
+}
+
+.footerr {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  background: #141526;
+  color: #fff;
+}
+.footerr > div {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footerr ul {
+  list-style-type: none;
+  padding: 0 20px;
+}
+.footerr ul a {
+  color: #fff;
+  text-decoration: none;
+}
+.footerr .copywrite {
+  min-width: 120px;
+  color: #fff;
+}
+.footerr .quickLinks {
+  width: 250px;
+}
+.footerr .quickLinks .ttl {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.footerr .contactInfo .ttl {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.mainTtl {
+  font-size: 60px;
+  font-family: Grand Hotel;
+  color: #56509f;
+}
+
+.bg-95cc47 {
+  background-color: #95cc47;
+}
+
+.bg-bd66ff {
+  background-color: #bd66ff;
+}
+
+.bg-ffaf40 {
+  background-color: #ffaf40;
+}
+
+.bg-ff6666 {
+  background-color: #ff6666;
+}
+
+.coreValues .card {
+  border-radius: 20px;
+  color: #fff;
+}
+.coreValues .card h5 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.coreValues .card p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.progress {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #ffffff5b;
+}
+.progress .bar {
+  background-color: #0d6efd;
+  width: 0%;
+  height: 2px;
+  border-radius: 3px;
+}
+.progress .percent {
+  position: absolute;
+  display: inline-block;
+  top: 3px;
+  left: 48%;
+}
+
+.owl-carousel.banner h2 {
+  font-size: 24px;
+}
+.owl-carousel.banner h3 {
+  font-size: 18px;
+}
+.owl-carousel.banner .owl-item img.subimg {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  box-shadow: 10px 6px 15px rgba(0, 0, 0, 0.16);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.owl-carousel.partners .owl-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.owl-item {
+  text-align: center;
+}
+
+body {
+  background-image: url(../images/logo2.png);
+  background-position: 50% 3%;
+  background-size: 10px;
+  padding: 0;
+  position: relative;
+}
+
+.carousel {
+  width: 100%;
+}
+
+#carouselExampleDark .carousel-item, #carouselExampleDark1 .carousel-item {
+  color: #000;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.carousel-indicators {
+  bottom: initial;
+  top: 0;
+  position: relative;
+}
+.carousel-indicators li {
+  background-color: #000;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  color: #000;
+}
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+  color: #000;
+}
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+  filter: invert(1) grayscale(100);
+}
+
+.nandan-socl-wrapr a {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.nandan-socl-wrapr a {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.nandan-socl-fb {
+  background: #3b5998;
+}
+
+.nandan-socl-twit {
+  background: #26a6d1;
+}
+
+.nandan-socl-lnkd {
+  background: #1da1f2;
+}
+
+.nandan-socl-insta {
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+}
+
+.nandan-socl-utub {
+  background: #c71f1e;
+}
+
+/*****************
+ ** MAIN HEADER **
+ *****************/
+.menu-icon {
+  display: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+ul.topbarMenu > li {
+  display: inline-block;
+  padding: 0 6px;
+  font-weight: 700;
+  color: #56509f;
+}
+
+ul.topbarMenu {
+  list-style: none;
+}
+
+.figure {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-footer {
+  background-color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  ul.topbarMenu {
+    display: block;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .menu-icon {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+  }
+
+  .menu-icon:hover {
+    color: #fff;
+  }
+
+  ul.topbarMenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    background: #141526eb;
+    top: 72px;
+    z-index: 2;
+  }
+
+  ul.topbarMenu > li {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  main .parallax > div {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footerr > div {
+    flex-direction: column;
+  }
+
+  .footerr .quickLinks {
+    margin-left: 0;
+  }
+
+  .footerr ul {
+    padding: 0;
+  }
+
+  .footerr {
+    padding: 30px;
+  }
+
+  main section {
+    padding: 30px 0;
+  }
+
+  .menu-icon {
+    right: 10px;
+  }
+
+  .topMenu {
+    padding: 20px 10px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .topMenu .logoText img {
+    width: 270px;
+    margin-top: 14px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  main .parallax > div {
+    top: 30px;
+  }
+
+  main section h2 {
+    font-size: 30px;
+    word-break: break-all;
+  }
+
+  main section article h6 {
+    margin-bottom: 30px;
+  }
+
+  td {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+#footer {
+  z-index: 0;
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+  vertical-align: middle;
+  min-height: 300px;
+  background: url(../images/footer_bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #56509f;
+}
+#footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
