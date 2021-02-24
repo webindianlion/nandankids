@@ -170,7 +170,8 @@ function set_ele(set_element) {
       loop: true,
       margin: 10,
       center: true,
-      autoplay: true,      
+      autoplay: true,  
+      // nav:true,
       responsiveClass: true,
       responsive: {
         0: {
@@ -180,6 +181,16 @@ function set_ele(set_element) {
         }
       }
     });
+
+  //   $('.banner').on('changed.owl.carousel', function(event) {
+  //     console.log("change");
+  //     setTimeout( function() {
+  //       $(".owl-item .subSlide").removeAttr("data-aos");
+  //       $(".owl-item.active .subSlide").attr("data-aos","fade-left");
+  //     }, 3000 )
+      
+  // });
+
   });
   
   

@@ -8,14 +8,42 @@
     
     <header class="container-flex mainHeader">
         <div class="owl-carousel banner owl-theme">
-            <div class="slide1  w-100 d-block"></div>
-            <div class="slide2  w-100 d-block"></div>
-            <div class="slide3  w-100 d-block"></div>
-            <div class="slide4  w-100 d-block"></div>
-            <!-- <img src="./images/slides/slide1.jpg" class="w-100" alt="">
-            <img src="./images/slides/slide2.jpg" class="w-100" alt="">
-            <img src="./images/slides/slide3.jpg" class="w-100" alt="">
-            <img src="./images/slides/slide4.jpg" class="w-100" alt="">                                         -->
+            <div class="slide1  w-100 d-block">
+                <div class="container position-relative w-100 h-100 p-0">
+                    <div class="subSlide position-absolute top-50 start-0 translate-middle-y"  >
+                        <h3> Established in 2008, our school is a place to focus. </h3>
+                        <p class="">Established in 2008, our school is a place to focus, solidify and add quality, variety, and scope to students’ lives.</p>
+                        <button> <i class="fas fa-kiwi-bird"></i> Learn More</button>
+                    </div>
+                </div>                
+            </div>
+            <div class="slide2  w-100 d-block">
+                <div class="container position-relative w-100 h-100 p-0">
+                    <div class="subSlide position-absolute top-50 start-0 translate-middle-y" >
+                        <h3> Established in 2008, our school is a place to focus. </h3>
+                        <p class="">Established in 2008, our school is a place to focus, solidify and add quality, variety, and scope to students’ lives.</p>
+                        <button> <i class="fas fa-kiwi-bird"></i> Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide3  w-100 d-block">
+                <div class="container position-relative w-100 h-100 p-0">
+                    <div class="subSlide position-absolute top-50 start-0 translate-middle-y" >
+                        <h3> Established in 2008, our school is a place to focus. </h3>
+                        <p class="">Established in 2008, our school is a place to focus, solidify and add quality, variety, and scope to students’ lives.</p>
+                        <button> <i class="fas fa-kiwi-bird"></i> Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide4  w-100 d-block">
+                <div class="container position-relative w-100 h-100 p-0">
+                    <div class="subSlide position-absolute top-50 start-0 translate-middle-y" >
+                        <h3> Established in 2008, our school is a place to focus. </h3>
+                        <p class="">Established in 2008, our school is a place to focus, solidify and add quality, variety, and scope to students’ lives.</p>
+                        <button> <i class="fas fa-kiwi-bird"></i> Learn More</button>
+                    </div>
+                </div>
+            </div>
         </div>                            
     </header>
 
@@ -78,10 +106,40 @@
                     </div>                        
                     </div>
                 </div>
-            </div>
-            
+            </div>            
         </section>
 
+        <section class="container-flude">
+            <!-- <div class="container"> -->
+                <div class="row smartyPrograms">
+                    <div class="col-md-4 picSide">
+                        
+                    </div>
+                    <div class="col-md-8 textSide">
+                        <h3>Smarty Programs</h3>
+                        <div class="row">
+                            <div class="col-md-6 textSideBox">
+                                <!-- <i class="fas fa-volleyball-ball"></i>
+                                <i class="fas fa-fish"></i>
+                                <i class="fas fa-alicorn"></i>
+                                <i class="fas fa-elephant"></i>
+                                <i class="fas fa-monkey"></i>
+                                <i class="fas fa-rabbit"></i> -->
+                                
+                                <i class="fas fa-fish"></i>
+                                <h3>Toddler (1,5 – 2 years)</h3>
+                                <p>By creating a safe, consistent and welcoming environment, we help</p>
+                            </div>
+                            <div class="col-md-6 textSideBox">
+                                <i class="fas fa-fish"></i>
+                                <h3>Toddler (1,5 – 2 years)</h3>
+                                <p>By creating a safe, consistent and welcoming environment, we help</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </section>
     </main>
     <?php  include './common/footer.php' ?>
     
