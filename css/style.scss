@@ -3,7 +3,8 @@
 * { margin: 0; padding: 0; font-family: 'Dosis', sans-serif; word-break: break-all;}
 
 // .jj{color: #f33;    background-color: #333; color: #a3a3a3;}
-
+:focus { outline: 0px !important;}
+a { text-decoration: none;}
 main { 
     // margin-top: 100px;
     z-index: 1;
@@ -83,10 +84,10 @@ main {
 }
 
 .mainHeader {
-    .slide1{ background-image: url(../images/slides/slide1.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;} 
-    .slide2{ background-image: url(../images/slides/slide2.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;}
-    .slide3{ background-image: url(../images/slides/slide3.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;}
-    .slide4{ background-image: url(../images/slides/slide4.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;}
+    .slide1{ background-image: url(../images/slides/1.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;} 
+    .slide2{ background-image: url(../images/slides/2.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;}
+    .slide3{ background-image: url(../images/slides/3.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;}
+    .slide4{ background-image: url(../images/slides/4.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;}
 
     .subSlide {
         width: 400px;
@@ -153,6 +154,16 @@ main {
         top: 0;
         z-index: 3;
 
+        .tagLine {
+            font-size: 18px;
+            color: #56509f;
+            font-weight: 700;
+            padding-top: 20px;
+            padding-left: 10px;
+            text-align: center;
+            
+            .subTagLine { font-size: 10px; font-weight: 400;}
+        }
         img {
             width: 100%;
             max-width: 100px;
@@ -378,19 +389,202 @@ header {
     }
     .textSide {
         padding-left: 50px;
-        &>h3 { font-family: Grand Hotel; font-size: 60px; color: #56509f; }
+        &>h3 { font-family: Grand Hotel; font-size: 60px; color: #56509f;margin-bottom: 30px; }
         .textSideBox {
             position: relative;
-            padding-left: 70px;
+            padding-left: 100px;
 
-            &:hover i { top: 20px;}
+            &:hover span.stm-icon { top: -10px;}
 
-            i { position: absolute; left: 0px; top: 30px; font-size: 40px; transition: all .4s;}
+            span.stm-icon { 
+                position: absolute; left: 0px; top: 0px; font-size: 70px; transition: all .4s;
+                &.stm-icon-car {  font-size: 60px;}
+            }
             h3 { font-size: 22px; color: #ff6682}
             p { font-size: 18px; color: #595959}
         }
     }
 }
+
+.mainClasses {
+
+    h3 {
+        font-family: Grand Hotel;
+        font-size: 60px;
+        color: #56509f;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .classes {
+
+        .card { 
+            border-radius: 20px !important; overflow: hidden;
+    
+            .card-footer {background-color: #fd0; color: #56509f;  transition: all .3s ease; font-weight: 700;
+            
+                &:hover{background-color: #ff6682; color: #fff;}
+            }
+        }
+        .owl-nav.disabled { display: block;}
+        .owl-nav button {
+            font-size: 50px !important;
+            color: #56509f !important;
+            width: 50px;
+            border: 1px solid #56509f !important;
+            border-radius: 100% !important;
+            height: 50px;
+            display: flex !important;
+            justify-content: center;
+            position: absolute;
+            top: 200px;
+    
+            &:focus {outline: 0;}
+    
+            &:hover { background-color: #fff !important;}
+    
+            &.owl-next { right: -70px;}
+            &.owl-prev { left: -70px;}
+    
+            span {
+                height: 100%;
+                line-height: 40px;
+            }
+        }
+        
+    }
+}
+
+.kindergarten {
+
+    .textSide{
+        h3 {
+            font-family: Grand Hotel;
+            font-size: 60px;
+            color: #56509f;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        p {
+            font-size: 20px;
+            margin-top: 30px;
+            color: #595959;
+        }
+        ul{
+            li{
+                font-weight: 700; font-size: 20px; width: 50%; border: 0; color: #595959;
+
+                img { width: 75px; margin-right: 20px;}
+
+            }
+        }
+    }
+    .picSide{
+        img{border-radius: 20px;}
+    }
+}
+
+.foot {
+    background-color: #56509f;
+
+    h4 {
+        margin-bottom: 19px;
+        font-weight: 700;
+        line-height: 30px;
+        font-size: 18px;
+        color: #fd0;
+    }
+
+    li {
+        background: no-repeat;
+            color: #fff;
+            border: 0;
+    }
+
+    .school {
+        p  {
+            display: block;
+            padding-top: 5px;
+            line-height: 24px;
+            letter-spacing: .3px;
+            font-weight: 400;
+            font-size: 16px;
+            color: rgba(255,255,255,.7);
+        }
+    }
+    .quickLinks{                    
+
+        a {
+            display: block;
+            position: relative;
+            padding-left: 20px;
+            font-size: 16px;
+            color: #fff;
+            text-decoration: none;
+            transition: all .3s ease;
+
+            &:before {
+                content: "›";
+                font-family: "Times New Roman";
+                position: absolute;
+                left: 0;
+                top: -1px;
+                font-size: 16px;
+                color: #fd0;
+            }
+        }
+    }
+
+    .media{
+            
+        img{
+            width: 75px;
+            height: 75px;
+            border-radius: 10px;
+        }
+    }
+}
+// *:focus {
+//     outline: 0;
+// }
+.galleryBox {
+
+    h3 {
+        font-family: Grand Hotel;
+        font-size: 60px;
+        color: #56509f;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #gallery{
+        padding-left: 20px;background-color: #fd0;padding: 20px; border-radius: 10px;
+
+        .nav-link.active {
+            background-color: #ff6682;
+            border-radius: 20px;
+            border: 0;
+            color: #fff;
+        }
+        .nav-link { 
+            font-weight: 600; font-size: 18px; background: none; color: #56509f;transition: all 0.3s ease; border-radius: 20px; border: 0; 
+        
+            &:hover {
+                background-color: #ff6682;
+                border-radius: 20px;
+                border: 0;
+                color: #fff;
+            }
+        }
+    }
+    .gallery {
+
+        img{ width: 350px; margin: 10px; border: 1px solid #dee2e6}
+    }
+}
+
+
+
+
  .owl-carousel.banner {
     // h2 {font-size: 24px;}
     // h3 {font-size: 18px;}

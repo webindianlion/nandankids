@@ -24,7 +24,9 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">        
         <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" >                
-        <link rel="stylesheet" href="./css/aos.css" />         
+        <link rel="stylesheet" href="./css/simple-lightbox.min.css" />
+        <link rel="stylesheet" href="./css/aos.css" />
         <link rel="stylesheet" href="./css/bootstrap-icons.css" />         
+        <link rel="stylesheet" href="./css/icons.css">           
         <link rel="stylesheet" href="./css/style.css">           
     </head>

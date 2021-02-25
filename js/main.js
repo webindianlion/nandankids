@@ -123,47 +123,7 @@ function set_ele(set_element) {
 
 
   $(document).ready(function() {
-    $('.pouches').owlCarousel({
-      loop: true,
-      margin: 10,
-      center: true,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-          nav: true,
-          dots: false
-        },
-        768: {
-          items: 3,
-          nav: false
-        }
-      }
-    });
-
-
-    $('.partners').owlCarousel({
-      loop: true,
-      margin: 10,
-      center: true,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-          nav: true,
-          dots: false
-        },
-        480: {
-          items: 3,
-          nav: false
-        },
-        992: {
-          items: 5,
-          nav: false
-        }
-      }
-    });
-
+    
     $('.banner').owlCarousel({
       animateIn: 'fadeInDown',
       animateOut: 'fadeOutDown',
@@ -190,6 +150,20 @@ function set_ele(set_element) {
   //     }, 3000 )
       
   // });
+
+
+  $(".classes.owl-carousel").owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true
+    // navText: ["<img src='myprevimage.png'>","<img src='mynextimage.png'>"]
+  });
+
+  // $(" ")
+  // $(".classes .owl-nav").removeClass("disabled");
+
+   $('.gallery a').simpleLightbox({navText:    ['&lsaquo;','&rsaquo;']});
+
 
   });
   

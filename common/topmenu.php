@@ -16,7 +16,13 @@
 </div>  
 
 <nav class="topMenu nav container m-auto ps-0 pe-0"> 
-    <a class="logoText shadow-sm p-2 mb-5 bg-body border" href="index.php"><img src="./images/logo.png" alt="Nandan School Logo"></a> 
+    <a class="logoText shadow-sm p-2 mb-5 bg-body border d-flex" href="index.php">
+        <img src="./images/logo.png" alt="Nandan School Logo">
+        <span class="tagLine">       
+            Nandan Kids Higher Secondary School
+           <br> <span  class="subTagLine"> Educating The Hand, The Mind & The Heart...</span>
+        </span>
+    </a> 
     <a href="#" id="topbar-menu-icon" class="menu-icon"><i class="fas fa-bars"></i> </a>
     <ul id="topbar-menu" class="topbarMenu d-flex flex-row justify-content-end align-items-center">
         <li> <a href="index.php"> Home </a> </li>
@@ -24,7 +30,7 @@
         <li> <a href="#"> Facilities </a> </li> 
         <li> <a href="#"> Staff </a> </li>             
         <li> <a href="#"> Admission </a> </li>
-        <li> <a href="#"> Gallery </a> </li>
+        <li> <a href="gallery.php"> Gallery </a> </li>
         <li> <a href="#"> Alumni </a> </li>
         <li> 
             <a href="#"> Staff </a> 
