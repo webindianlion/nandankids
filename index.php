@@ -215,14 +215,14 @@
                     <div class="col quickLinks">
                         <h4>Quick Links</h4>
                         <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item">
+                            <li class="list-group-item ps-0">
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item"> <a href=""> Home </a> </li>
                                     <li class="list-group-item"> <a href=""> About Us </a> </li>
                                     <li class="list-group-item"> <a href=""> Staff </a> </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item">
+                            <li class="list-group-item ps-0">
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item"> <a href=""> Gallery </a> </li>
                                     <li class="list-group-item"> <a href=""> Alumni </a> </li>
@@ -236,12 +236,12 @@
                     <div class="col media">
                         <h4>Media Gallery</h4>
                         <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item"> <img src="./images/gallery/gallery1.jpg" alt=""> </li>
-                            <li class="list-group-item"><img src="./images/gallery/gallery2.jpg" alt=""> </li>
+                            <li class="list-group-item ps-0"> <img src="./images/af/thumb/1.jpg" alt=""> </li>
+                            <li class="list-group-item ps-0"><img src="./images/af/thumb/2.jpg" alt=""> </li>
                         </ul>
                         <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item"> <img src="./images/gallery/gallery1.jpg" alt=""> </li>
-                            <li class="list-group-item"><img src="./images/gallery/gallery2.jpg" alt=""> </li>
+                            <li class="list-group-item ps-0"> <img src="./images/af/thumb/3.jpg" alt=""> </li>
+                            <li class="list-group-item ps-0"><img src="./images/af/thumb/4.jpg" alt=""> </li>
                         </ul>
                     </div>
                 </div>
