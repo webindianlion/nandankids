@@ -1,6 +1,10 @@
 // font-family: 'Grand Hotel', cursive;   font-family: 'Dosis', sans-serif;
 
-* { margin: 0; padding: 0; font-family: 'Dosis', sans-serif; word-break: break-all;}
+* { margin: 0; padding: 0; font-family: 'Dosis', sans-serif;}
+
+// $pink : #ff6682;
+$pink : #fc0d84;
+$blue : #56509f;
 
 // .jj{color: #f33;    background-color: #333; color: #a3a3a3;}
 :focus { outline: 0px !important;}
@@ -10,7 +14,7 @@ main {
     z-index: 1;
     position: relative;
     background: #fff;
-    margin-bottom: 300px;
+    border-top: 1px solid #ced4da;
 
     section {
         padding: 50px 0;
@@ -34,33 +38,34 @@ main {
     }
 
     .parallax {
-        background-image: url("../images/parallax.jpg");    
-        // height: 550px;    
+        background-image: url("../images/footer_bg.jpg");    
         background-attachment: fixed;
         background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         padding: 0;
         position: relative;
+        min-height: 350px;
 
         &:before {
             content: "";
             width: 100%;
-            height: 100%;
-            background: #141526;
-            display: block;
-            opacity: .9;
+            height: 100%;            
+            display: block;            
+            position: absolute;
         }
-
+       
         & > div {
             position: absolute;
-            color: #fff;
+            color: $blue;
             top: 50px;
-            // left: calc(50% - 400px);
-            // width: 800px;
 
-            p { text-align: justify; color: #fff;  }
-            h2, h6 { color: #fff; }
+            & .textCont {
+                background: #ffffffbf;
+                padding: 20px;
+                border-radius: 20px;
+            }
+
+            p { text-align: justify; color: $blue; font-weight: 600; font-size: 18px;  }
+            h2, h6 { color: $blue; }
         }
 
         }
@@ -84,6 +89,9 @@ main {
 }
 
 .mainHeader {
+    border-top: 2px solid $blue;
+    background: $blue;
+
     .slide1{ background-image: url(../images/slides/1.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;} 
     .slide2{ background-image: url(../images/slides/2.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;}
     .slide3{ background-image: url(../images/slides/3.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;}
@@ -91,25 +99,26 @@ main {
 
     .subSlide {
         width: 400px;
-        background-color: #fff;
+        background-color: #ffffffcc;
         border-radius: 10px;
-        color: #56509f;  
+        color: $blue;  
         padding: 20px;      
 
         & > h3 {
             font-family: Grand Hotel;
-            font-size: 60px;
+            font-size: 50px;
             line-height: 0.5;
             margin-top: 20px;
         }
-        & >p { font-size: 20px;margin-top: 30px; color: #333;}
+        & >p { font-size: 20px;margin-top: 30px; color: #333; font-weight: 500;}
         button { 
             font-size: 20px;
             font-weight: 700;
-            color: #56509f;
+            color: #fff;
             padding: 10px 30px;
             border-radius: 40px;
-            border: 1px solid #56509f;
+            border: 1px solid #fff;
+            background-color: $pink;
 
             i { margin-right: 10px;}
         }
@@ -117,7 +126,7 @@ main {
 }
 
 .topSocial {
-    background: #ff6682; 
+    background: $pink; 
     width: 100%;
     height: 50px;
 
@@ -146,27 +155,31 @@ main {
     top: 0px;
     padding-top: 20px;
     background: #fff;
-    min-height: 100px;           
+    min-height: 100px;        
 
     .logoText {
         // width: 478px;
         position: absolute;
-        top: 0;
+        top: 22px;
         z-index: 3;
+        border-right: 2px solid $pink;
+        padding-right: 10px;
+        background: #fff;
 
         .tagLine {
-            font-size: 18px;
-            color: #56509f;
+            font-size: 24px;
+            color: $pink;
             font-weight: 700;
-            padding-top: 20px;
+            padding-top: 6px;
             padding-left: 10px;
             text-align: center;
+            line-height: 1;
             
-            .subTagLine { font-size: 10px; font-weight: 400;}
+            .subTagLine { font-size: 16px; font-weight: 400;}
         }
         img {
-            width: 100%;
-            max-width: 100px;
+            width: 70px;
+            height: 58px;
         }
     }
 
@@ -179,88 +192,94 @@ main {
         width: 100%;
         text-align: right;
         list-style: none;
+        position: relative;
+        // overflow: hidden;
+        padding: 0;
 
 
         &>li {
             display: inline-block;
-            padding: 0 6px;
-            font-weight: 700;    
-            color: #56509f;
+            font-weight: 500;    
+            padding: 0 3px;
 
             &>a {
-                color: #56509f;
+                color: $blue;
                 text-decoration: none;
                 padding: 10px;
                 font-size: 18px;
+                border-radius: 5px;
+                transition: all .3s ease;
+
+                &.activeMenuItem, &:hover {  color: $pink; }
+            }
+            & > a:hover + .sub-menu {opacity:1;visibility:visible}
+                
+        .sub-menu {
+            position: absolute;
+            background: #fff;
+            min-width: 150px;
+            padding-left: 0;
+            list-style: none;
+            margin-bottom: 0;
+            visibility: hidden;
+            opacity: 0;
+            z-index: 2;
+            transition: all .3s ease;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0 5px 20px 0 rgb(0 0 0 / 30%);
+            top: 64px;
+
+            &:hover {opacity:1;visibility:visible}
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: -4px;
+                left: 0;
+                width: 100%;
+                height: 4px;
+                background-color: $pink;
             }
 
-                &>a:hover + .sub-menu {opacity:1;visibility:visible}
-                .sub-menu {
-                    position: absolute;
-                    background: #fff;
-                    min-width: 150px;
-                    padding-left: 0;
-                    list-style: none;
-                    margin-bottom: 0;
-                    visibility: hidden;
-                    opacity: 0;
-                    z-index: 2;
-                    transition: all .3s ease;
-                    border-radius: 0 0 15px 15px;
-                    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 30%);
-                    top: 100px;
+            &>li { 
+                position: relative;
 
-                    &:hover {opacity:1;visibility:visible}
+                &:hover>a {
+                    text-decoration: none;
+                    background: $pink;
+                    color: #fff;
+
+                    &::before { color: #fff; }
+                }
+
+                &>a {
+                    position: relative;
+                    display: block;
+                    white-space: nowrap;
+                    padding: 9px 30px;
+                    line-height: 24px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: $blue;
+                    overflow: hidden;
+                    transition: all .3s ease;
+                    text-decoration: none;
+                    text-align: left;
 
                     &::before {
-                        content: "";
+                        content: '›';
+                        font-family: "Times New Roman",serif;
                         position: absolute;
-                        top: -4px;
-                        left: 0;
-                        width: 100%;
-                        height: 4px;
-                        background-color: #ff6682;
+                        left: 10px;
+                        top: 8px;
+                        font-size: 16px;
+                        color: $blue;
+                        transition: all .3s ease;
+                        z-index: 1;
                     }
-
-                    &>li { 
-                        position: relative;
-
-                        &:hover>a {
-                            text-decoration: none;
-                            background: #ff6682;
-                            color: #fff;
-
-                            &::before { color: #fff; }
-                        }
-
-                        &>a {
-                            position: relative;
-                            display: block;
-                            white-space: nowrap;
-                            padding: 9px 30px;
-                            line-height: 24px;
-                            font-size: 16px;
-                            font-weight: 500;
-                            color: #56509f;
-                            overflow: hidden;
-                            transition: all .3s ease;
-                            text-decoration: none;
-                            text-align: left;
-
-                            &::before {
-                                content: '›';
-                                font-family: "Times New Roman",serif;
-                                position: absolute;
-                                left: 10px;
-                                top: 8px;
-                                font-size: 16px;
-                                color: #56509f;
-                                transition: all .3s ease;
-                                z-index: 1;
-                            }
-                        }
-                    }
-                } 
+                }
+            }
+        } 
 
 
 
@@ -334,7 +353,23 @@ header {
         }
     }
 }
-.mainTtl { font-size: 60px; font-family: Grand Hotel; color: #56509f; }
+.contact {
+    // max-width: 600px;
+
+    & > h3 {
+        font-family: Grand Hotel;
+        font-size: 60px;
+        line-height: 0.5;
+        margin-top: 20px;
+        text-align: center;
+        color: $blue;
+    }
+    .imgPart {
+        img {width: 100%; border-radius: 20px;}
+    }
+    .btn-submit { background-color: $pink; color: #fff; font-weight: 600;}
+}
+.mainTtl { font-size: 60px; font-family: Grand Hotel; color: $blue; }
 
 .bg-95cc47 {background-color: #95cc47;}
 .bg-bd66ff {background-color: #bd66ff;}
@@ -389,7 +424,7 @@ header {
     }
     .textSide {
         padding-left: 50px;
-        &>h3 { font-family: Grand Hotel; font-size: 60px; color: #56509f;margin-bottom: 30px; }
+        &>h3 { font-family: Grand Hotel; font-size: 60px; color: $blue;margin-bottom: 30px; }
         .textSideBox {
             position: relative;
             padding-left: 100px;
@@ -400,7 +435,7 @@ header {
                 position: absolute; left: 0px; top: 0px; font-size: 70px; transition: all .4s;
                 &.stm-icon-car {  font-size: 60px;}
             }
-            h3 { font-size: 22px; color: #ff6682}
+            h3 { font-size: 22px; color: $pink}
             p { font-size: 18px; color: #595959}
         }
     }
@@ -411,7 +446,7 @@ header {
     h3 {
         font-family: Grand Hotel;
         font-size: 60px;
-        color: #56509f;
+        color: $blue;
         margin-bottom: 30px;
         text-align: center;
     }
@@ -421,17 +456,17 @@ header {
         .card { 
             border-radius: 20px !important; overflow: hidden;
     
-            .card-footer {background-color: #fd0; color: #56509f;  transition: all .3s ease; font-weight: 700;
+            .card-footer {background-color: #fd0; color: $blue;  transition: all .3s ease; font-weight: 700;
             
-                &:hover{background-color: #ff6682; color: #fff;}
+                &:hover{background-color: $pink; color: #fff;}
             }
         }
         .owl-nav.disabled { display: block;}
         .owl-nav button {
             font-size: 50px !important;
-            color: #56509f !important;
+            color: $blue !important;
             width: 50px;
-            border: 1px solid #56509f !important;
+            border: 1px solid $blue !important;
             border-radius: 100% !important;
             height: 50px;
             display: flex !important;
@@ -461,7 +496,7 @@ header {
         h3 {
             font-family: Grand Hotel;
             font-size: 60px;
-            color: #56509f;
+            color: $blue;
             margin-bottom: 30px;
             text-align: center;
         }
@@ -485,7 +520,7 @@ header {
 }
 
 .foot {
-    background-color: #56509f;
+    background-color: $blue;
 
     h4 {
         margin-bottom: 19px;
@@ -552,7 +587,7 @@ header {
     h3 {
         font-family: Grand Hotel;
         font-size: 60px;
-        color: #56509f;
+        color: $blue;
         margin-bottom: 30px;
         text-align: center;
     }
@@ -560,16 +595,16 @@ header {
         padding-left: 20px;background-color: #fd0;padding: 20px; border-radius: 10px;
 
         .nav-link.active {
-            background-color: #ff6682;
+            background-color: $pink;
             border-radius: 20px;
             border: 0;
             color: #fff;
         }
         .nav-link { 
-            font-weight: 600; font-size: 18px; background: none; color: #56509f;transition: all 0.3s ease; border-radius: 20px; border: 0; 
+            font-weight: 600; font-size: 18px; background: none; color: $blue;transition: all 0.3s ease; border-radius: 20px; border: 0; 
         
             &:hover {
-                background-color: #ff6682;
+                background-color: $pink;
                 border-radius: 20px;
                 border: 0;
                 color: #fff;
@@ -582,8 +617,53 @@ header {
     }
 }
 
+.classes {
+    & > h3 {
+        font-family: Grand Hotel;
+        font-size: 60px;
+        color: $blue;
+        margin-bottom: 30px;
+        text-align: center;
+    }
 
+    .textPart {
+        .subTitle {       
+            font-size: 30px;
+            color: $blue;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            color: #595959;
+            margin-bottom: 30px;
+            line-height: 2;
+        }
+    }
+    .imgPart {
+         img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 20px;
+        }
+    }
+    
+}
 
+.events {
+
+    .fullCard { 
+        border-radius: 20px; overflow: hidden;
+        h5 {    color: $blue; font-size: 24px;}
+        ul { 
+            list-style-type: none; padding-left: 10px;
+            .stm-icon {margin-right: 10px;     color: $pink;}
+            li { margin: 10px 0; }
+        
+        }
+     }
+    .textPart {max-width: 225px;}
+}
 
  .owl-carousel.banner {
     // h2 {font-size: 24px;}
@@ -604,13 +684,13 @@ header {
 .owl-item {
     text-align: center;
 }
-body {
-    background-image: url(../images/logo2.png);
-    background-position: 50% 3%;
-    background-size: 10px;
-    padding: 0;
-    position: relative;
-}
+// body {
+//     background-image: url(../images/logo2.png);
+//     background-position: 50% 3%;
+//     background-size: 10px;
+//     padding: 0;
+//     position: relative;
+// }
 
 .carousel {
     width: 100%;
@@ -727,13 +807,18 @@ body {
     }     
 }
 
-@media only screen and (max-width: 1023px) { 
+@media only screen and (max-width: 1200px) { 
+
+    .topMenu {
+        max-width: 96%;
+        // padding: 20px 0;
+    }
 
 }
 
 @media only screen and (max-width: 768px) { 
 
-    main .parallax > div { width: 100%;  max-width: 100%;}
+    // main .parallax > div { width: 100%;  max-width: 100%;}
     .footerr > div { flex-direction: column; }
     .footerr .quickLinks { margin-left: 0; }
     .footerr ul { padding: 0; }
@@ -741,7 +826,7 @@ body {
 
     main section { padding: 30px 0; }
     .menu-icon { right: 10px; }
-    .topMenu { padding: 20px 10px; }
+    // .topMenu { padding: 20px 10px; }
 }
 
 @media only screen and (max-width: 530px) { 
@@ -749,9 +834,9 @@ body {
 }
 @media only screen and (max-width: 480px) { 
     
-    main .parallax > div {
-        top: 30px;
-    }
+    // main .parallax > div {
+    //     top: 30px;
+    // }
     main section h2 {
         font-size: 30px;
         word-break: break-all;
@@ -772,14 +857,14 @@ body {
     z-index: 0;
     width: 100%;
     bottom: 0px;
-    position: fixed;
+    position: relative;
     vertical-align: middle;
     min-height: 300px;
     background: url(../images/footer_bg.jpg) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
-    color: #56509f;
+    color: $blue;
 
     a { text-decoration: none; color: #fff;}
 }

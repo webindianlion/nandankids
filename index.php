@@ -48,10 +48,10 @@
     </header>
 
     <main>
-        <section class="">
-            <div class="container ">
-                <div class="row">
-                    <article data-aos="fade-up" data-aos-duration="1000">
+        <section class="parallax">
+            <div class="container-fluid ">
+                <div class="container">
+                    <article data-aos="fade-up" data-aos-duration="1000" class="textCont">
                         <h2 class="text-center mainTtl">Nandan Kids School</h2>
                         <h6 class="text-center">Nursery | Play School | Senior Secondary</h6>
                         <p class="">Established in 2008, our school is a place to focus, solidify and add quality, variety, and scope to students’ lives.Our teachers and administration are committed to help each individual student to become the best he or she is capable of becoming. <br>
@@ -157,7 +157,7 @@
 
         <section class="container mainClasses "> 
             <h3 class="">Classes</h3>
-            <div class="row classes owl-carousel owl-theme">
+            <div class="classes owl-carousel owl-theme">
                 <div class="card d-block">
                     <img src="./images/classes/1.jpg" class="card-img-top" >
                     <div class="card-body">

@@ -38,10 +38,22 @@ $(document).ready(function () {
       
     });
 
-    var hhh = $("main .parallax > div h2").outerHeight(true) + $("main .parallax > div h6").outerHeight(true) + $("main .parallax > div p").outerHeight(true) ;
+    var hhh = $(".parallax > div h2").outerHeight(true) + $("main .parallax > div h6").outerHeight(true) + $("main .parallax > div p").outerHeight(true) ;
     var parallaxHeight = $(".parallax").outerHeight() ;
-    parallaxHeight = hhh + 100;
+    parallaxHeight = hhh + 140;
     $(".parallax").css("height", parallaxHeight );    
+
+
+// script to add active class to top menu bar
+
+    $(".topbarMenu a").each(function() {
+      // console.log($(this).attr('href'));
+      if ((window.location.pathname.indexOf($(this).attr('href'))) > -1) {
+          $(this).addClass('activeMenuItem');
+      }
+  });
+
+
 });
 
 $(function() {
@@ -167,4 +179,5 @@ function set_ele(set_element) {
 
   });
   
+ 
   
