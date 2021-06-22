@@ -6,9 +6,12 @@
         <meta name="Keywords" content="Nandan Kids Higher Secondary School">
         <meta name="Description" content="Nandan Kids Higher Secondary School">
 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
         <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
         
         <!-- Owl Stylesheets -->
         <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
