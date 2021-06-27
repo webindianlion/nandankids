@@ -8,8 +8,8 @@
                             <div class="col-md-4 p-4">
                                 <h2>ABOUT US</h2>
                                 <ul class="list-group list-group-flush">                                    
-                                    <li class="text-uppercase list-group-item"><a href="/about-us/why-us/">Why ORCHIDS?</a></li>
-                                    <li class="text-uppercase list-group-item"><a href="/blog/">Our Blogs</a></li>
+                                    <li class="text-uppercase list-group-item"><a href="#">Why NANDAN KIDs ?</a></li>
+                                    <li class="text-uppercase list-group-item"><a href="/#">Our Blogs</a></li>
                                 </ul>
                                 <div class="award-tag">
                                     <i class="fa fa-trophy" aria-hidden="true"></i>
@@ -17,22 +17,23 @@
                                 </div>
                             </div>
                             <div class="col-md-4 p-4">
-                                <h2>OUR SCHOOLS</h2>
+                                <h2>QUICK LINKs</h2>
                                 <ul class="list-group list-group-flush">                                    
-                                    <li class="text-uppercase list-group-item"><a href="">Bengaluru Schools</a></li>
-                                    <li class="text-uppercase list-group-item"><a href="/mumbai-branches/">Mumbai Schools</a></li>
-                                    <li class="text-uppercase list-group-item"><a href="/pune-branches/">Pune Schools</a></li>
-                                    <li class="text-uppercase list-group-item"><a href="/hyderabad-branches/">Hyderabad Schools</a></li>
-                                    <li class="text-uppercase list-group-item"><a href="/kolkata-branches/">Kolkata Schools</a></li>
-                                    <li class="text-uppercase list-group-item"><a href="/chennai-branches/">Chennai Schools</a></li>
-                                    <li class="text-uppercase list-group-item"><a href="/gurgaon-branch/">Gurugram Schools</a></li>
+                                    <li class="text-uppercase list-group-item"><a href="index.php">Home</a></li>
+                                    <li class="text-uppercase list-group-item"><a href="event.php">About Us</a></li>
+                                    <li class="text-uppercase list-group-item"><a href="clases.php">Classes</a></li>
+                                    <li class="text-uppercase list-group-item"><a href="events.php">Events</a></li>
+                                    <li class="text-uppercase list-group-item"><a href="#"> Academic </a></li>
+                                    <li class="text-uppercase list-group-item"><a href="gallery.php"> Gallery </a></li>
+                                    <li class="text-uppercase list-group-item"><a href="#"> Staff </a></li>
+									<li class="text-uppercase list-group-item"><a href="contact.php"> Contact Us </a></li>
                                 </ul>
                             </div>
                             <div class="col-md-4 p-4">
                                 <h2> REACH US</h2>
                                 <ul class="list-group list-group-flush">                                    
-                                    <li class="text-uppercase list-group-item"><a href=""></a>info@orchids.edu.in</li>
-                                    <li class="text-uppercase list-group-item"><a href=""></a>(+91) 9513731352</li>
+                                    <li class="text-uppercase list-group-item"><a href=""></a>info@nandankids.in</li>
+                                    <li class="text-uppercase list-group-item"><a href=""></a>(+91)424777821 </li>
                                 </ul>
                             </div>
                         </div>
@@ -54,7 +55,7 @@
                         </ul>
                     </div>
                     <div class="col-sm-4 col-md-4 sitemap">
-                        <h5><a href="#">Sitemap</a> | <a href="">Privacy Policy</a> | <a href="">Term of Use</a>  | <a href="">Cancellation</a> </h5>
+                        <h5><a href="#">Sitemap</a> | <a href="">Privacy Policy</a> | <a href="">Term of Use</a>  |</h5>
                     </div>
                 </div>                
             </div> 

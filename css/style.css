@@ -136,15 +136,15 @@ main .parallax > div h2, main .parallax > div h6 {
 
 .mainHeader .subSlide {
   width: 400px;
-  background-color: #ffffffcc;
+  background-color: #ffffff7d;
   border-radius: 10px;
-  color: #56509f;
+  color: #c72027;
   padding: 20px;
 }
 
 .mainHeader .subSlide > h3 {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   line-height: 1;
   margin-top: 20px;
 }
@@ -257,13 +257,15 @@ main .parallax > div h2, main .parallax > div h6 {
 }
 
 .topMenu > ul > li > a {
-  color: #56509f;
+  color: #c72027;
   text-decoration: none;
   padding: 22px 10px;
-  font-size: 18px;
+  font-size: 14px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   padding-bottom: 19px;
+  text-transform: uppercase;
+  font-weight: 550;
 }
 
 .topMenu > ul > li > a.activeMenuItem, .topMenu > ul > li > a:hover {
@@ -303,7 +305,7 @@ main .parallax > div h2, main .parallax > div h6 {
 
 .topMenu > ul > li .sub-menu > li:hover > a {
   text-decoration: none;
-  background: #fc0d84;
+  background: #c72027;
   color: #fff;
 }
 
@@ -1329,5 +1331,29 @@ footer li.list-group-item {
 #footer a {
   text-decoration: none;
   color: #fff;
+}
+
+.card-title {
+  text-align: center;
+  width: 100%;
+  border-bottom: none;
+  color: #c72027;
+  letter-spacing: 0;
+  font-weight: 600;
+  margin-top: 15px;
+  /*text-transform: no*/
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.card-title_lower {
+  text-align: center;
+  width: 100%;
+  border-bottom: none;
+  color: #c72027;
+  letter-spacing: 0;
+  margin-top: 5px;
+  /*text-transform: no*/
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */

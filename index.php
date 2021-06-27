@@ -51,8 +51,8 @@
         <section class="ontainer-fluid">
             <div class="container">
                 <article class="textCont">
-                    <h2 class="text-center mainTtl"> WELCOME TO ORCHIDS THE INTERNATIONAL SCHOOL </h2>
-                    <p class="">Orchids The International School, your child’s second home has been Shaping Minds and Touching lives. The Orchids family started in 2002 with just one school in Hyderabad. Today, 19 years down the line, it has grown to include a chain of over 35 international schools that have impacted over 30,000 young lives. You can find Orchid International school branches in most of the major cities in India, namely Bengaluru, Mumbai, Hyderabad, Pune, Kolkata, Chennai, and Gurugram. Ranked as one of the top CBSE International schools in the Times School Survey, we strive to set new benchmarks in the field of education.</p>                   
+                    <h2 class="text-center mainTtl"> WELCOME TO NANDAN KIDs Hr. SEC. SCHOOL </h2>
+                    <p class=""> Nandan Kids Hr. Sec. School, your child’s second home has been Shaping Minds and Touching lives. Established in 2008, our school is a place to focus, solidify and add quality, variety, and scope to students’ lives.Our teachers and administration are committed to help each individual student to become the best he or she is capable of becoming..</p>                   
                     <div class="d-flex justify-content-between mt-5">
                         <div class="w-50 p-2">
                             <h6 class="text-center"> WE ARE MORE THAN JUST A SCHOOL </h6>
@@ -63,7 +63,7 @@
                         <div class="w-50 p-2">
                             <h6 class="text-center"> OUR FACULTY </h6>
                             <p>A school is only as good as its teachers, and as one of the Top International schools in India, we know we have to hire the best. Every teacher in our team must undergo a rigorous hiring process before attending the in-house teachers training program. Apart from observing lessons, the teachers have to give assessments to ensure their subject matter knowledge is up to our standards. We also train our teachers to adopt our teaching methodologies and ensure that they regularly participate in curriculum workshops and subject-specific seminars to stay updated at all times.</p>
-                            <p>How many times have you typed “CBSE schools near me” or even “Schools near me” into your search bar just to find institutes that do not match your vision of education for your child? With Orchid International School, you can rest assured that your child is in good hands.</p>
+                            <p>How many times have you typed “CBSE schools near me” or even “Schools near me” into your search bar just to find institutes that do not match your vision of education for your child? With Nandan Kids Hr. Sec. School, you can rest assured that your child is in good hands.</p>
                         </div>
                     </div>
                 </article>                
@@ -132,7 +132,7 @@
                 <div class="row curriculum">
                     <div class="col-md-4 text-center">
                         <img src="https://www.orchidsinternationalschool.com/wp-content/uploads/2020/09/Orchids_early_program.svg" class="w-25" alt="" >
-                        <h5>Playschool Curriculum</h5>
+                        <h5 class="card-title_lower fw-bold">Playschool Curriculum</h5>
                         <ul class="list-group list-group-flush text-start">
                             <li class="list-group-item">Creating an environment to encourage curiosity and cognitive thinking.</li>
                             <li class="list-group-item">Empowering students with 360° development.</li>
@@ -141,7 +141,7 @@
                     </div>
                     <div class="col-md-4 text-center">
                         <img src="https://www.orchidsinternationalschool.com/wp-content/uploads/2020/09/Orchids_primary.svg" alt="" class="w-25" >
-                        <h5>Primary Curriculum</h5>
+                        <h5 class="card-title_lower fw-bold">Primary Curriculum</h5>
                         <ul class="list-group list-group-flush text-start">
                         <li class="list-group-item">Emphasis on improving the conceptual understanding of core subjects.</li>
                         <li class="list-group-item">Thematic and integrated learning to explore lessons outside the textbook.</li>
@@ -150,11 +150,11 @@
                     </div>
                     <div class="col-md-4 text-center">
                         <img src="https://www.orchidsinternationalschool.com/wp-content/uploads/2020/09/Orchids_secondary.svg" alt="" class="w-25" >
-                        <h5>Secondary Curriculum</h5>
+                        <h5 class="card-title_lower fw-bold">Secondary Curriculum</h5>
                         <ul class="list-group list-group-flush text-start">
                             <li class="list-group-item">Introduction of advanced learning modules such as robotics.</li>
                             <li class="list-group-item">Inclusion of comprehensive subject kits designed by IITs and PhD holders.</li>
-                            <li class="list-group-item">Focus on competitive exams such as NEET, JEE, CLAT etc with ORCHIDS Career Foundation Program.</li>
+                            <li class="list-group-item">Focus on competitive exams such as NEET, JEE, CLAT etc with Nandan Kids Career Foundation Program.</li>
                         </ul>
                     </div>
                 </div>
@@ -166,10 +166,10 @@
                 <h2 class=" mainTtl text-center  mb-5"> AWARDS </h2>
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="https://www.orchidsinternationalschool.com/wp-content/uploads/2021/03/times-school-survey-1.png" class="w-100" alt="" >
+                        <img src="./images/india-school-survey-awards.png" class="w-100" alt="" >
                     </div>
                     <div class="col-md-6">
-                        <img src="https://www.orchidsinternationalschool.com/wp-content/uploads/2021/03/india-school-merit-awards-1.png" class="w-100" alt="" >
+                        <img src="./images/india-school-merit-awards.png" class="w-100" alt="" >
                     </div>
                 </div>
             </div>
@@ -184,7 +184,8 @@
                         <div class="card">
                             <img class="" src="https://www.orchidsinternationalschool.com/wp-content/uploads/2020/10/infraSwimming.jpg" alt="" class="card-img-top">
                             <div class="card-body">
-                                <h5 class="card-title fw-bold">Swimming Pool</h5>
+                                <!--<h5 class="card-title fw-bold">Swimming Pool</h5>-->
+								<h4 class="card-title fw-bold">Swimming pool</h4>
                                 <p class="card-text">Where coordination is mastered</p>
                             </div>
                         </div>                        
@@ -227,7 +228,7 @@
                 <div class="row">                        
                     <div class="col-lg-4 col-xs-12">
                         <a href="#">
-                            <div class="hover hover-3 text-white rounded"><img src="https://www.orchidsinternationalschool.com/wp-content/uploads/2021/03/Orchid-website-image-creative_Final_06-01-01.jpg" alt="" class="w-100" >
+                            <div class="hover hover-3 text-white rounded"><img src="./images/nandan_kids_tv.jpg" alt="" class="w-100" >
                                 <div class="hover-overlay"></div>
                                 <div class="hover-3-content px-5 py-4">
                                     <p class="hover-3-description small text-uppercase mb-0">Click to know more.</p>
@@ -237,7 +238,7 @@
                     </div>
                     <div class="col-lg-4 col-xs-12">
                         <a href="#">
-                            <div class="hover hover-3 text-white rounded"><img src="https://www.orchidsinternationalschool.com/wp-content/uploads/2021/03/Orchid-website-image-creative_Final_06-01-02.jpg" alt="" class="w-100">
+                            <div class="hover hover-3 text-white rounded"><img src="./images/nandan_kids_channel.jpg" alt="" class="w-100">
                                 <div class="hover-overlay"></div>
                                 <div class="hover-3-content px-5 py-4">
                                     <p class="hover-3-description small text-uppercase mb-0">Click to know more.</p>
@@ -248,7 +249,7 @@
                     <div class="col-lg-4 col-xs-12">
 
                         <a href="#">
-                            <div class="hover hover-3 text-white rounded"><img src="https://www.orchidsinternationalschool.com/wp-content/uploads/2021/03/Orchid-website-image-creative_Final_06-01-03.jpg" alt="" class="w-100" >
+                            <div class="hover hover-3 text-white rounded"><img src="./images/nandan_kids_publications.jpg" alt="" class="w-100" >
                                 <div class="hover-overlay"></div>
                                 <div class="hover-3-content px-5 py-4">                                    
                                     <p class="hover-3-description small text-uppercase mb-0">Click to know more.</p>
@@ -263,7 +264,7 @@
 
         <section class="container-flude">
             <div class="container">
-                <h2 class=" mainTtl text-center  mb-5"> TESTIMONIALS </h2>
+                <h2 class=" mainTtl text-center  mb-5"> PARENTS FEEDBACK </h2>
                 <div class="row testimonial">
 
                     <div class="test-container col m-3">
@@ -271,8 +272,8 @@
                         <div class="d-flex justify-content-start  mt-2">
                             <div class="w-25">
                                 <img src="https://www.orchidsinternationalschool.com/wp-content/uploads/2018/11/Testi_Home_Sandhya-e1549364543136.png" width="150" class="">
-                                <p class="name"> Sandhya Salunkhe </p>
-                                <p class="address"> Thane, Mumbai </p>
+                                <p class="name"> Sandhya Tiwari </p>
+                                <p class="address"> Rewa, M.P </p>
                             </div>
                             <div class="w-75">
                                 <p> Exceptional School! My daughter is studying in ORCHIDS since last 4 years and we are very happy with the school and her overall progress.The school's willingness to give them healthy social environment is highly appreciated my best wishes. </p>
@@ -285,9 +286,9 @@
                         <div> <i class="fa fa-quote-left"></i> </div>
                         <div class="d-flex justify-content-start  mt-2">
                             <div class="w-25">
-                                <img src="https://www.orchidsinternationalschool.com/wp-content/uploads/2018/11/Testi_Home_Sandhya-e1549364543136.png" width="150" class="">
-                                <p class="name"> Sandhya Salunkhe </p>
-                                <p class="address"> Thane, Mumbai </p>
+                                <img src="https://www.orchidsinternationalschool.com/wp-content/uploads/2018/11/Testi_Home_Aditya_mukesh-e1549364882293.jpg" width="150" class="">
+                                <p class="name"> Deepak Mishra </p>
+                                <p class="address"> Rewa, M.P </p>
                             </div>
                             <div class="w-75">
                                 <p> Exceptional School! My daughter is studying in ORCHIDS since last 4 years and we are very happy with the school and her overall progress.The school's willingness to give them healthy social environment is highly appreciated my best wishes. </p>
